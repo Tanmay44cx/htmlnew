@@ -1,0 +1,60 @@
+.flexthing {
+    display: flex;
+    flex-wrap: wrap;
+justify-content:space-evenly;
+  }
+
+
+  .menu{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: lightseagreen;
+    
+    }
+    
+  
+    
+
+
+
+a:link{
+color: bisque;
+}
+
+a:visited{
+  color: aquamarine;
+}
+
+
+
+.flexthing:hover{
+  opacity: 0.5;
+}
+
+.animals{
+
+  border:solid;
+  border-color: chocolate;
+  border-style: ridge;
+  border-radius: 50px;
+  border-width: 50px;
+
+}
+.animals p{
+  text-align: center;
+  font-family: fantasy;
+}
+
+.animals img{
+margin-left: 150px;
+border-style: solid;
+border-radius: 50px;
+border-width: 25px;
+border-color: darkcyan;
+}
